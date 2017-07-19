@@ -2,6 +2,7 @@ public class A {
 	private int A1;
 	private float A2;
 	private String A3;
+	private String Aprinc4;
 
 	public void setA1(int a1){
 		A1 = a1;
@@ -29,5 +30,13 @@ public class A {
 
 	public float soma(){
 		return A1+A3+A2;
+	}
+
+	public void setAprinc4(String princ4){
+		Aprinc4 = princ4;
+	}
+
+	public String getAPrinc4(){
+		return Aprinc4;
 	}
 }
