@@ -28,6 +28,6 @@ public class A {
 	}
 
 	public float soma(){
-		return A1+A2+A3;
+		return A1+A3+A2;
 	}
 }
