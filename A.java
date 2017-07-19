@@ -26,4 +26,8 @@ public class A {
 	public String getA3(){
 		return A3;
 	}
+
+	public float soma(){
+		return A1+A2+A3;
+	}
 }
