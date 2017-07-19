@@ -3,6 +3,7 @@ public class A {
 	private float A2;
 	private String A3;
 	private String Aramo4;
+	private String Aprinc4;
 
 	public void setA1(int a1){
 		A1 = a1;
@@ -38,5 +39,13 @@ public class A {
 
 	public String getAramo4(){
 		return Aramo4;
+	}
+
+	public void setAprinc4(String princ4){
+		Aprinc4 = princ4;
+	}
+
+	public String getAPrinc4(){
+		return Aprinc4;
 	}
 }
